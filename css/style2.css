@@ -1,0 +1,39 @@
+body {
+  height: 100vh;
+  background: #fff;
+  cursor: none;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: monospace;
+}
+
+body h1, body p, body a {
+  color: #000;
+}
+
+body a {
+  border-bottom: 2px solid #000;
+  padding: 10px 0;
+  margin-top: 25px;
+}
+
+body .content {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style2.css.map */
